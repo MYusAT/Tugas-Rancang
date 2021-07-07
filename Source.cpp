@@ -1,5 +1,5 @@
-// Buka dengan Dev C++ (lancar jaya)
-// Tidak support Visual Studio (error)
+// Buka di Dev++
+// Tidak Support Visual Studio
 
 #include<windows.h>
 #include<gl/glut.h>
@@ -314,7 +314,8 @@ void tampil(void)
 	glVertex3f(10.0, 15.0, -20.0);
 	glVertex3f(10.0, 15.0, -45.0);
 	glEnd();
-	//gedung belakang
+
+	//Gedung Belakang
 	glBegin(GL_POLYGON);
 	glColor3f(225.0, 228.0, 181.0);
 	glVertex3f(50.0, -20.0, -50.0);
@@ -322,6 +323,15 @@ void tampil(void)
 	glVertex3f(-50.0, 30.0, -50.0);
 	glVertex3f(-50.0, -20.0, -50.0);
 	glEnd();
+
+	glBegin(GL_POLYGON);
+	glColor3f(225.0, 228.0, 181.0);
+	glVertex3f(50.0, 30.0, -50.0);
+	glVertex3f(50.0, 30.0, -80.0);
+	glVertex3f(-50.0, 30.0, -80.0);
+	glVertex3f(-50.0, 30.0, -50.0);
+	glEnd();
+
 	glBegin(GL_POLYGON);
 	glColor3f(0.435, 0.568, 0.701);
 	glVertex3f(20.0 - 70, 30.0, -10.0 - 70);
