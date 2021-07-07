@@ -1,3 +1,6 @@
+//	Buka dengan Dev C++
+//	Tidak support visual Studio
+
 #include <Windows.h>
 #include <stdlib.h>
 #include <GL/glut.h>
